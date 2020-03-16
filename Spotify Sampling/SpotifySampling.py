@@ -136,7 +136,7 @@ headers = {"Authorization" : "Bearer " + client_access_token, "User-Agent" : ""}
 
 
 #Paste Genius Album URL
-genius_url = 'ex: https://genius.com/albums/Kanye-west/late-registration'
+genius_url = 'ex: https://genius.com/albums/Amine/Good-for-you'
 
 # Scrape samples into dataframe and create sample playlist on Spotify
 sample_data, album_artist, album_title, titles = ScrapeGeniusURL(genius_url)
